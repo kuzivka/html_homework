@@ -143,5 +143,35 @@ a {
 }
 
 @media screen and (max-width: 360px) {
-  
+  .header{
+    grid-template: 100px/4fr 2fr ;
+  }
+  .photo-container{
+    flex-direction: column;
+    gap: 16px;
+  }
+  .photo{
+    max-height: 140px;
+  }
+  .container-3{
+    flex-direction: column;
+    height: 300px;
+  }
+  .container-3__1{
+    width: 100%;
+    flex-grow: 3;
+  }
+  .container-3__2{
+    width: 100%;
+    flex-grow: 5;
+  }
+  .containers4-6{
+    flex-direction: column;
+  }
+  .containers4-5{
+    width: 100%;
+  }
+  .container-4{
+    gap: 8px;
+  }
 }
